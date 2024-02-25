@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="End to End Framework Test(failed)">
+    <classes>
+      <class name="org.Hayyak.ecommerce4">
+        <methods>
+          <include name="starts"/>
+          <include name="FillForm"/>
+          <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.Hayyak.ecommerce4 -->
+    </classes>
+  </test> <!-- End to End Framework Test(failed) -->
+  <test thread-count="5" name="Error Validation Test(failed)">
+    <classes>
+      <class name="org.Hayyak.TESTCASES2">
+        <methods>
+          <include name="FillForm_ErrorValidation"/>
+          <include name="ConfigureAppium"/>
+          <include name="FillForm_PositiveFlow"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.Hayyak.TESTCASES2 -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
